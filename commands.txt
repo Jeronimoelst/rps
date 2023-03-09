@@ -1,0 +1,14 @@
+// create ambiente virtual de python
+$ python -m venv .\venv 
+// git ignore .gitignore
+ignorar carpeta o archivo
+
+activar venv: 
+// si tira error: Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
+$ venv\Scripts\Activate.ps1
+
+//instalar dependencias
+$ pip install -r requirements.txt
+
+// correr el test watch loop
+$ ptw
